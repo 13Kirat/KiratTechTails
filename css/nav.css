@@ -1,16 +1,16 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.nav{
+.nav {
     position: sticky;
     top: 0;
     left: 0;
 }
 
-.title{
+.title {
     float: left;
     width: 50vw;
 }
@@ -27,12 +27,12 @@
     gap: 10px;
 }
 
-#name{
+#name {
     font-size: 35px;
     padding: 15px 20px 10px 40px;
 }
 
-.nav-items{
+.nav-items {
     text-decoration: none;
     padding: 5px;
     border-bottom: 2px solid transparent;
@@ -43,8 +43,7 @@
     -o-transition: ease 1s;
 }
 
-.nav-items:hover{
+.nav-items:hover {
     color: #f4f4f4;
     border-bottom: 2px solid #f4f4f4;
 }
-

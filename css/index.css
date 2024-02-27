@@ -28,3 +28,8 @@
     color: #f4f4f4;
     font-size: 3vmin;
 }
+
+.btn:hover{
+    color: #f4f4f4;
+    background-color: #66666e;
+}
