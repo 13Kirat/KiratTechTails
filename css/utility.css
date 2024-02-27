@@ -1,21 +1,51 @@
 :root{
-    --bg-primary: 
+    --one: #000000 !important;
+    --two: #66666e !important;
+    --three: #9999a1 !important;
+    --four: #e6e6e9 !important;
+    --five: #f4f4f6 !important;
+}
+
+.bg-major{
+    background-color: var(--one);
 }
 
 .bg-primary{
-    background-color: #000000;
-}
-.bg-primary{
-    background-color: #66666e;
-}
-.bg-primary{
-    background-color: #9999a1;
-}
-.bg-primary{
-    background-color: #e6e6e9;
-}
-.bg-primary{
-    background-color: #f4f4f6;
+    background-color: var(--two);
 }
 
+.bg-secondary{
+    background-color: var(--three);
+}
 
+.bg-tertiary{
+    background-color: var(--four);
+}
+
+.bg-minor{
+    background-color: var(--five);
+}
+
+.text-major{
+    color: var(--one);
+}
+
+.text-primary{
+    color: var(--two);
+}
+
+.text-secondary{
+    color: var(--three);
+}
+
+.text-tertiary{
+    color: var(--four);
+}
+
+.text-minor{
+    color: var(--five);
+}
+
+.text-gold{
+    color: gold;
+}
